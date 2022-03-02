@@ -3,8 +3,11 @@ package PracSrc;
 public class PasswordValidator {
     public static boolean isValid(String pwd)
     {
-        if(pwd.length()>6)
+        if(pwd.length()>3) {
+            int i=0;
+            int b=90/i;
             return true;
+        }
         else
         return false;
 
