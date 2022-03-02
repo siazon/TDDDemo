@@ -1,7 +1,7 @@
 package PracSrc;
 
 public class PasswordValidator {
-    public  boolean isValid(String pwd)
+    public static boolean isValid(String pwd)
     {
         if(pwd.length()>6)
             return true;
