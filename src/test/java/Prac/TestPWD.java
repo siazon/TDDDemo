@@ -9,6 +9,7 @@ public class TestPWD {
     @Test
     public void text()
     {
+        //test
         Assert.assertEquals(true,PasswordValidator.isValid("abc123"));
     }
 }
