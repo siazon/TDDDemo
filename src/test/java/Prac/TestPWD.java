@@ -10,6 +10,7 @@ public class TestPWD {
     public void text()
     {
         //test from siazon
+
         Assert.assertEquals(true,PasswordValidator.isValid("abc123"));
     }
 }
