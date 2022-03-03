@@ -9,7 +9,7 @@ public class TestPWD {
     @Test
     public void text()
     {
-        //test
+        //test from siazon
         Assert.assertEquals(true,PasswordValidator.isValid("abc123"));
     }
 }
