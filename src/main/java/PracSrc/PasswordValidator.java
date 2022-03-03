@@ -16,6 +16,8 @@ public class PasswordValidator {
     // test copy code
     public  boolean isValid1(String pwd)
     {
+
+
         if(pwd.length()>6)
             return true;
         else
