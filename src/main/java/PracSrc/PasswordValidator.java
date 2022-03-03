@@ -5,8 +5,6 @@ public class PasswordValidator {
     {
         //test bug
         if(pwd.length()>3) {
-            int i=0;
-            int b=90/i;
             return true;
         }
         else
