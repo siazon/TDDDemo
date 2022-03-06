@@ -1,19 +1,17 @@
 package PracSrc;
 
-import org.junit.jupiter.api.Test;
-import org.testng.Assert;
 
-import static org.junit.jupiter.api.Assertions.*;
+import org.junit.*;
 
-class PasswordValidatorTest {
+public class PasswordValidatorTest {
 
     @Test
-    void isValid() {
+  public   void isValid() {
         Assert.assertEquals(true,PasswordValidator.isValid("abc123"));
         Assert.assertEquals(false,PasswordValidator.isValid("abc1"));
     }
     @Test
-    void isNameValid() {
+    public  void isNameValid() {
         Assert.assertEquals(true,PasswordValidator.isUserNameValid("abc123"));
         Assert.assertEquals(false,PasswordValidator.isUserNameValid("c1"));
     }
