@@ -12,7 +12,11 @@ class PasswordValidatorTest {
         Assert.assertEquals(true,PasswordValidator.isValid("abc123"));
         Assert.assertEquals(false,PasswordValidator.isValid("abc1"));
     }
-
+    @Test
+    void isNameValid() {
+        Assert.assertEquals(true,PasswordValidator.isUserNameValid("abc123"));
+        Assert.assertEquals(false,PasswordValidator.isUserNameValid("c1"));
+    }
 
 
 }
