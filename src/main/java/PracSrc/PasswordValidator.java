@@ -10,4 +10,13 @@ public class PasswordValidator {
         else
         return false;
     }
+    public static boolean isUserNameValid(String pwd)
+    {
+        //test bug
+        if(pwd.length()>3) {
+            return true;
+        }
+        else
+            return false;
+    }
 }
