@@ -13,4 +13,5 @@ class PasswordValidatorTest {
         Assert.assertEquals(false,PasswordValidator.isValid("abc1"));
     }
 
+
 }
