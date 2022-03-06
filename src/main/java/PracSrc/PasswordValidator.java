@@ -9,6 +9,5 @@ public class PasswordValidator {
         }
         else
         return false;
-
     }
 }
