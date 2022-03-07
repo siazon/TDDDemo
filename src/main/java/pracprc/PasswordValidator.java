@@ -1,6 +1,7 @@
 package pracprc;
 
 public class PasswordValidator {
+    public PasswordValidator(){}
     public static boolean isValid(String pwd)
     {
         //test bug
