@@ -1,4 +1,4 @@
-package PracSrc;
+package pracprc;
 
 
 import org.junit.*;
