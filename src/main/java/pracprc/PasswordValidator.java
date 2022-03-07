@@ -2,7 +2,7 @@ package pracprc;
 
 public class PasswordValidator {
     public PasswordValidator(){
-        //TODO
+        //no thing to do
     }
     public  boolean isValid(String pwd)
     {
