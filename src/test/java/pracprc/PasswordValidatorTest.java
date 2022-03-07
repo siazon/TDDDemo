@@ -4,16 +4,17 @@ package pracprc;
 import org.junit.*;
 
 public class PasswordValidatorTest {
-
+    PasswordValidator pv=new PasswordValidator();
     @Test
   public   void isValid() {
-        Assert.assertEquals(true,PasswordValidator.isValid("abc123"));
-        Assert.assertEquals(false,PasswordValidator.isValid("abc1"));
+
+        Assert.assertEquals(true,pv.isValid("abc123"));
+        Assert.assertEquals(false,pv.isValid("abc1"));
     }
     @Test
     public  void isNameValid() {
-        Assert.assertEquals(true,PasswordValidator.isUserNameValid("abc123"));
-        Assert.assertEquals(false,PasswordValidator.isUserNameValid("c1"));
+        Assert.assertEquals(true,pv.isUserNameValid("abc123"));
+        Assert.assertEquals(false,pv.isUserNameValid("c1"));
     }
 
 
