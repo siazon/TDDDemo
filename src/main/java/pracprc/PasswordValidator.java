@@ -9,9 +9,12 @@ public class PasswordValidator {
         //test bug
         return pwd.length() > 5;
     }
-    public  boolean isUserNameValid(String pwd)
+    public  boolean isUserNameValid(String userName)
     {
         //test bug
-        return pwd.length() > 3;
+        boolean b = userName.length() > 3;
+        return
+                b;
+
     }
 }
